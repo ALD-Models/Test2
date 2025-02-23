@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TikTok Profile - Mockup</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #000;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .profile-header {
+            display: flex;
+            align-items: center;
+            background-color: #111;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+        }
+
+        .profile-header img {
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+            margin-right: 20px;
+        }
+
+        .profile-header .profile-info {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .profile-header .profile-info h2 {
+            margin: 0;
+            font-size: 24px;
+            color: #fff;
+        }
+
+        .profile-header .profile-info p {
+            margin: 5px 0;
+            font-size: 16px;
+            color: #bbb;
+        }
+
+        .bio {
+            margin-top: 10px;
+            font-size: 16px;
+            color: #bbb;
+        }
+
+        .profile-stats {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+            background-color: #111;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+            margin-bottom: 20px;
+        }
+
+        .profile-stats .stat {
+            text-align: center;
+        }
+
+        .profile-stats .stat h3 {
+            margin: 0;
+            font-size: 22px;
+            color: #fff;
+        }
+
+        .profile-stats .stat p {
+            margin: 5px 0;
+            color: #bbb;
+        }
+
+        .profile-buttons {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+            width: 100%;
+        }
+
+        .profile-buttons button {
+            background-color: #222;
+            color: #fff;
+            border: 1px solid #333;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s;
+            width: 48%;
+            margin: 0;
+        }
+
+        .profile-buttons button:hover {
+            background-color: #444;
+        }
+
+        /* Mobile friendly */
+        @media (max-width: 768px) {
+            .profile-header {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .profile-header img {
+                margin-bottom: 20px;
+            }
+
+            .profile-buttons button {
+                width: 100%;
+                margin-bottom: 10px;
+            }
+
+            .profile-stats {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .profile-stats .stat {
+                margin-bottom: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <!-- Profile Header -->
+    <div class="profile-header">
+        <img src="https://media.licdn.com/dms/image/v2/D5603AQG_beHsEMpJBg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1702240665458?e=1746057600&v=beta&t=55cfCk_gMHqY7fK1WmIZwiWOJAne0kCFeCQYW6oYcTw" alt="Profile Picture">
+        <div class="profile-info">
+            <h2>Jake Lofthouse</h2>
+            <p class="bio">Just a person making videos about life and fun moments. Love sharing creativity!</p>
+        </div>
+    </div>
+
+    <!-- Profile Stats (removed followers & following) -->
+    <div class="profile-stats">
+        <div class="stat">
+            <h3>120</h3>
+            <p>Posts</p>
+        </div>
+    </div>
+
+    <!-- Profile Buttons (Message, Friend) -->
+    <div class="profile-buttons">
+        <button>Message</button>
+        <button>Friend</button>
+    </div>
+
+</div>
+
+</body>
+</html>
